@@ -1,0 +1,81 @@
+﻿  stdafx.cpp
+  bsxdrdefine.cpp
+  caseattrrecset.cpp
+  casetree.cpp
+C:\Users\liu\Desktop\MFCApplication1\casetree.cpp(464,1): error C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  参见“strcpy”的声明
+C:\Users\liu\Desktop\MFCApplication1\casetree.cpp(549,31): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\casetree.cpp(551,34): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\casetree.cpp(625,30): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\casetree.cpp(627,37): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\casetree.cpp(724,31): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\casetree.cpp(726,34): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\casetree.cpp(753,30): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+  casetreeret.cpp
+  catalogtreeret.cpp
+  cctrlview.cpp
+  ChildFrm.cpp
+C:\Users\liu\Desktop\MFCApplication1\casetree.cpp(755,37): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+  ContentPage1.cpp
+  ContentPage2.cpp
+C:\Users\liu\Desktop\MFCApplication1\ChildFrm.cpp(71,7): warning C4101:  “rect”: 未引用的局部变量
+C:\Users\liu\Desktop\MFCApplication1\MyButton.h(163,2): warning C4193:  #pragma warning(pop): 没有匹配的“#pragma warning(push)”
+C:\Users\liu\Desktop\MFCApplication1\EditInput.h(150,43): warning C4267:  “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\EditInput.h(220,43): warning C4267:  “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\CompareDataDlg.h(142,43): warning C4267:  “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\CompareDataDlg.h(280,43): warning C4267:  “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\ContentPage2.cpp(103,21): warning C4101:  “comparedatadata”: 未引用的局部变量
+C:\Users\liu\Desktop\MFCApplication1\ContentPage2.cpp(82,17): warning C4101:  “predata”: 未引用的局部变量
+C:\Users\liu\Desktop\MFCApplication1\ContentPage2.cpp(88,19): warning C4101:  “editdata”: 未引用的局部变量
+C:\Users\liu\Desktop\MFCApplication1\ContentPage2.cpp(94,22): warning C4101:  “execshelldata”: 未引用的局部变量
+C:\Users\liu\Desktop\MFCApplication1\ContentPage2.cpp(366,58): warning C4312:  “类型强制转换”: 从“BOOL”转换到更大的“PreDataBut *”
+C:\Users\liu\Desktop\MFCApplication1\ContentPage2.cpp(369,58): warning C4312:  “类型强制转换”: 从“BOOL”转换到更大的“PreDataBut *”
+C:\Users\liu\Desktop\MFCApplication1\ContentPage2.cpp(372,60): warning C4312:  “类型强制转换”: 从“BOOL”转换到更大的“EditInputBut *”
+C:\Users\liu\Desktop\MFCApplication1\ContentPage2.cpp(375,63): warning C4312:  “类型强制转换”: 从“BOOL”转换到更大的“ExecshellDlgBut *”
+C:\Users\liu\Desktop\MFCApplication1\ContentPage2.cpp(378,58): warning C4312:  “类型强制转换”: 从“BOOL”转换到更大的“PreDataBut *”
+  ContentView.cpp
+C:\Users\liu\Desktop\MFCApplication1\ContentPage2.cpp(381,62): warning C4312:  “类型强制转换”: 从“BOOL”转换到更大的“CompareDataBut *”
+C:\Users\liu\Desktop\MFCApplication1\ContentView.cpp(303,38): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+  defaultxml.cpp
+  ExecCaseThread.cpp
+  GridCell.cpp
+C:\Users\liu\Desktop\MFCApplication1\ContentView.cpp(364,31): warning C4244:  “=”: 从“LPARAM”转换到“float”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\GridCtrl_src\GridCell.cpp(235,1): error C4996:  'GetVersionExW': 被声明为已否决
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\sysinfoapi.h(387): message :  参见“GetVersionExW”的声明
+C:\Users\liu\Desktop\MFCApplication1\GridCtrl_src\GridCell.cpp(238,1): error C4996:  'GetVersionExW': 被声明为已否决
+  GridCellBase.cpp
+  GridCtrl.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\sysinfoapi.h(387): message :  参见“GetVersionExW”的声明
+C:\Users\liu\Desktop\MFCApplication1\GridCtrl_src\GridCtrl.cpp(163,1): error C4996:  'GetVersionExW': 被声明为已否决
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\sysinfoapi.h(387): message :  参见“GetVersionExW”的声明
+C:\Users\liu\Desktop\MFCApplication1\GridCtrl_src\GridCtrl.cpp(572,5): error C2440:  “static_cast”: 无法从“void (__cdecl CGridCtrl::* )(UINT)”转换为“void (__cdecl CWnd::* )(UINT_PTR)”
+  GridDropTarget.cpp
+  InPlaceEdit.cpp
+  TitleTip.cpp
+  MainFrm.cpp
+  MFCApplication1.cpp
+  正在生成代码...
+  正在编译...
+  MFCApplication1Doc.cpp
+  MFCApplication1View.cpp
+  OutputWnd.cpp
+  cusergroup.cpp
+  cuserinfo.cpp
+  cuserprom.cpp
+  cuserrelaandcell.cpp
+  DialogUserAttr.cpp
+  DialogUserGroup.cpp
+  DialogUserInfo.cpp
+  DialogUserSprom.cpp
+  PropertiesWnd.cpp
+  ContentSheet.cpp
+  sequencerecset.cpp
+  tinyxml2.cpp
+C:\Users\liu\Desktop\MFCApplication1\GridCtrl_src\GridCtrl.cpp(572,5): message :  从基类型到派生类型的强制转换需要 dynamic_cast 或 static_cast
+C:\Users\liu\Desktop\MFCApplication1\tinyxml2.cpp(2106,1): error C4996:  'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1323): message :  参见“itoa”的声明
+C:\Users\liu\Desktop\MFCApplication1\tinyxml2.cpp(2114,7): warning C4244:  “参数”: 从“const LONGLONG”转换到“long”，可能丢失数据
+C:\Users\liu\Desktop\MFCApplication1\tinyxml2.cpp(2114,1): error C4996:  'ltoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _ltoa. See online help for details.
+  ViewTree.cpp
+  正在生成代码...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1330): message :  参见“ltoa”的声明

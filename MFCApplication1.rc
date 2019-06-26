@@ -1,0 +1,1090 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\MFCApplication1.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#include ""l.CHS\\afxprint.rc""    // 打印/打印预览资源\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.CHS\\afxribbon.rc""        // MFC 功能区和控制条资源\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MFCApplication1.ico"
+
+IDR_MFCApplication1TYPE ICON                    "res\\MFCApplication1Doc.ico"
+
+IDI_FILE_VIEW           ICON                    "res\\file_view.ico"
+
+IDI_FILE_VIEW_HC        ICON                    "res\\file_view_hc.ico"
+
+IDI_CLASS_VIEW          ICON                    "res\\class_view.ico"
+
+IDI_CLASS_VIEW_HC       ICON                    "res\\class_view_hc.ico"
+
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SORT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_MENU_IMAGES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+IDR_PROPERTIES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTIES1
+    BUTTON      ID_PROPERTIES2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "关闭(&C)",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "打印设置(&R)...",                 ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近的文件",                       ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        POPUP "工具栏和停靠窗口(&T)"
+        BEGIN
+            MENUITEM "<占位符>",                       ID_VIEW_TOOLBAR
+        END
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        POPUP "应用程序外观(&A)"
+        BEGIN
+            MENUITEM "Windows 2000(&2)",            ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office XP(&X)",               ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "Windows XP(&W)",              ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 2003(&3)",             ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 2007(&7)"
+            BEGIN
+                MENUITEM "蓝色样式(&B)",                    ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "黑色样式(&L)",                    ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "银色样式(&S)",                    ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "水绿色样式(&A)",                   ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 MFCApplication1(&A)...",   ID_APP_ABOUT
+    END
+END
+
+IDR_MFCApplication1TYPE MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "关闭(&C)",                      ID_FILE_CLOSE
+        MENUITEM "保存(&S)\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",                  ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "打印预览(&V)",                    ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印设置(&R)...",                 ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近的文件",                       ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        POPUP "工具栏和停靠窗口(&T)"
+        BEGIN
+            MENUITEM "<占位符>",                       ID_VIEW_TOOLBAR
+        END
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        POPUP "应用程序外观(&A)"
+        BEGIN
+            MENUITEM "Windows 2000(&2)",            ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office XP(&X)",               ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "Windows XP(&W)",              ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 2003(&3)",             ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 2007(&7)"
+            BEGIN
+                MENUITEM "蓝色样式(&B)",                    ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "黑色样式(&L)",                    ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "银色样式(&S)",                    ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "水绿色样式(&A)",                   ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "窗口(&W)"
+    BEGIN
+        MENUITEM "新建窗口(&N)",                    ID_WINDOW_NEW
+        MENUITEM "层叠(&C)",                      ID_WINDOW_CASCADE
+        MENUITEM "平铺(&T)",                      ID_WINDOW_TILE_HORZ
+        MENUITEM "排列图标(&A)",                    ID_WINDOW_ARRANGE
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 MFCApplication1(&A)...",   ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "编辑"
+    BEGIN
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_POPUP_CATALOG MENU
+BEGIN
+    POPUP "菜单"
+    BEGIN
+        MENUITEM "打开",                          ID_OPEN_CASE
+        MENUITEM "执行",                          ID_EXEC
+        MENUITEM SEPARATOR
+        MENUITEM "新建case",                      ID_NEW_CASE
+        MENUITEM "新建目录",                        ID_NEWCATALOG
+        MENUITEM SEPARATOR
+        MENUITEM "复制",                          ID_COPYCASE
+        MENUITEM "复制并粘贴",                       ID_CPYCASETOLOCAL
+        MENUITEM "剪切",                          ID_CUTCASE
+        MENUITEM "粘贴",                          ID_PASTECASE
+        MENUITEM "删除",                          ID_DELETE
+        MENUITEM "重命名",                         ID_RENAME
+        MENUITEM "撤销",                          ID_32793
+        MENUITEM SEPARATOR
+        MENUITEM "导出此目录",                       ID_EXPORT
+        MENUITEM "刷新",                          ID_REFRESHTREE
+        MENUITEM "属性",                          ID_CASEATTRIBUTE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU
+BEGIN
+    POPUP "资源管理器"
+    BEGIN
+        MENUITEM "打开(&O)",                      ID_OPEN
+        MENUITEM "打开方式(&W)....",                ID_OPEN_WITH
+        MENUITEM SEPARATOR
+        MENUITEM "编译(&C)",                      ID_DUMMY_COMPILE
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "移除(&R)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "属性(&P)...",                   ID_PROPERTIES
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "弹出项"
+    BEGIN
+        MENUITEM "复制(&C)",                      ID_EDIT_COPY
+        MENUITEM "清除(&C)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "隐藏(&H)",                      ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_HELP_MENU MENU
+BEGIN
+    MENUITEM "关于 MFCApplication1(&A)...",   ID_APP_ABOUT
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "Office 2007 (蓝色样式)(&B)",      ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (黑色样式)(&L)",      ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (银色样式)(&S)",      ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (水绿色样式)(&A)",     ID_VIEW_APPLOOK_OFF_2007_AQUA
+    MENUITEM "Windows 7(&D)",               ID_VIEW_APPLOOK_WINDOWS_7
+END
+
+IDR_POPUP_CASE MENU
+BEGIN
+    POPUP "菜单"
+    BEGIN
+        MENUITEM "打开",                          ID_OPEN_CASE
+        MENUITEM "执行",                          ID_EXEC
+        MENUITEM SEPARATOR
+        MENUITEM "新建case",                      ID_NEW_CASE
+        MENUITEM "新建目录",                        ID_NEWCATALOG
+        MENUITEM SEPARATOR
+        MENUITEM "复制",                          ID_COPYCASE
+        MENUITEM "复制并粘贴",                       ID_CPYCASETOLOCAL
+        MENUITEM "剪切",                          ID_CUTCASE
+        MENUITEM "删除",                          ID_DELETE
+        MENUITEM "粘贴",                          ID_PASTECASE
+        MENUITEM "撤销",                          ID_32792
+        MENUITEM "重命名",                         ID_RENAME
+        MENUITEM SEPARATOR
+        MENUITEM "导出此CASE",                     ID_EXPORT
+        MENUITEM "刷新",                          ID_REFRESHTREE
+        MENUITEM "属性",                          ID_CASEATTRIBUTE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 252, 88
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MFCApplication1"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "BOSS自动化测试工具  1.0版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2018 刘光磊 保留所有权利",IDC_STATIC,42,28,167,8
+    DEFPUSHBUTTON   "确定",IDOK,195,67,50,14,WS_GROUP
+END
+
+IDD_CCTRLVIEW DIALOGEX 0, 0, 70, 338
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "预置资料",IDC_PREDATA,0,30,62,14,BS_NOTIFY
+    PUSHBUTTON      "执行命令",IDC_EXECSHELL,0,66,62,14,BS_NOTIFY
+    PUSHBUTTON      "清理环境",IDC_CLEANDATA,0,12,62,14,BS_NOTIFY
+    PUSHBUTTON      "文件比对",IDC_COMPAREFILE,0,84,62,14,BS_NOTIFY
+    PUSHBUTTON      "输入话单编辑",IDC_INPUTEDIT,0,48,62,14,BS_NOTIFY
+    PUSHBUTTON      "数据比对",IDC_COMPAREDATA,0,102,62,14,BS_NOTIFY
+END
+
+IDD_CONTENTVIEW DIALOGEX 300, 0, 479, 306
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+END
+
+IDD_PROPPAGE_CUSERINFO DIALOGEX 0, 0, 334, 249
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "cuserinfo"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    LTEXT           "ACCTID",IDC_STATIC,12,12,25,8
+    LTEXT           "SERVID",IDC_STATIC,107,12,25,8
+    LTEXT           "CUSETID",IDC_STATIC,198,12,29,8
+    LTEXT           "REGION_CODE",IDC_STATIC,12,34,45,8
+    LTEXT           "IMSI",IDC_STATIC,107,34,17,8
+    LTEXT           "USER_NUMBER",IDC_STATIC,198,34,45,8
+    LTEXT           "VALIDDATE",IDC_STATIC,12,56,37,8
+    LTEXT           "EXPIREDATE",IDC_STATIC,158,56,41,8
+    EDITTEXT        IDC_EDIT_ACCTID,61,10,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SERVID,152,10,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CUSTID,252,10,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REGIONCODE,61,32,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IMSI,152,32,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MSISDN,252,32,40,14,ES_AUTOHSCROLL
+    LTEXT           "UserCycle",IDC_STATIC,12,87,37,8
+    LTEXT           "UserSts",IDC_STATIC,107,87,29,8
+    LTEXT           "OperSts",IDC_STATIC,107,106,29,8
+    LTEXT           "MgntSts ",IDC_STATIC,198,87,33,8
+    LTEXT           "AcctSts",IDC_STATIC,12,106,29,8
+    LTEXT           "CycleType",IDC_STATIC,12,160,37,8
+    LTEXT           "CycleLength",IDC_STATIC,107,160,45,8
+    LTEXT           "CycleProperty",IDC_STATIC,198,160,53,8
+    LTEXT           "CycleEndDay",IDC_STATIC,12,181,45,8
+    EDITTEXT        IDC_EDIT_USERCYCLE,61,85,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERSTS,152,85,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MGNTSTS,252,85,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ACCTSTS,61,104,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CYCLEPROPERTY,252,158,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CYCLETYPE,61,158,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CYCLELENGTH,152,158,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OPERSTS,152,104,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CYCLEENDDAY,61,180,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DATE_USERVALID,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,50,54,52,15
+    CONTROL         "",IDC_TIME_USERVALID,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,105,54,51,15
+    CONTROL         "",IDC_DATE_USEREXPIRE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,199,54,54,15
+    CONTROL         "",IDC_TIME_USEREXPIRE,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,260,54,68,15
+    LTEXT           "VALIDDATE",IDC_STATIC,12,125,37,8
+    LTEXT           "EXPIREDATE",IDC_STATIC,158,125,41,8
+    CONTROL         "",IDC_DATE_CYCLEVALID,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,50,123,52,15
+    CONTROL         "",IDC_TIME_CYCLEVALID,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,105,123,51,15
+    CONTROL         "",IDC_DATE_CYCLEEXPIRE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,199,123,54,15
+    CONTROL         "",IDC_TIME_CYCLEEXPIRE,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,260,123,68,15
+    LTEXT           "VALIDDATE",IDC_STATIC,12,202,37,8
+    LTEXT           "EXPIREDATE",IDC_STATIC,158,202,41,8
+    CONTROL         "",IDC_DATE_BILLCYCLEVALID,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,50,200,52,15
+    CONTROL         "",IDC_TIME_BILLCYCLEVALID,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,105,200,51,15
+    CONTROL         "",IDC_DATE_BILLCYCLEEXPIRE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,199,200,54,15
+    CONTROL         "",IDC_TIME_BILLCYCLEEXPIRE,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,260,198,68,15
+END
+
+IDD_PROPPAGE_CUSERSPROM DIALOGEX 0, 0, 314, 251
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "cusersprom"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    LTEXT           "sprom_id",IDC_STATIC,13,12,33,8
+    LTEXT           "so_id",IDC_STATIC,13,32,21,8
+    LTEXT           "service_id",IDC_STATIC,13,52,41,8
+    LTEXT           "sprom_type",IDC_STATIC,13,72,41,8
+    LTEXT           "plan_id",IDC_STATIC,13,92,29,8
+    LTEXT           "validdate",IDC_STATIC,13,112,37,8
+    LTEXT           "expiredate",IDC_STATIC,13,132,41,8
+    LTEXT           "plan_id",IDC_STATIC,13,152,29,8
+    EDITTEXT        IDC_EDIT1,61,47,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,61,9,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,61,28,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,61,66,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,61,86,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,61,151,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,61,107,43,15
+    CONTROL         "",IDC_DATETIMEPICKER2,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,107,108,43,15
+    CONTROL         "",IDC_DATETIMEPICKER29,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,61,130,43,15
+    CONTROL         "",IDC_DATETIMEPICKER30,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,107,131,43,15
+    LTEXT           "validdate",IDC_STATIC,13,172,37,8
+    LTEXT           "expiredate",IDC_STATIC,13,192,41,8
+    CONTROL         "",IDC_DATETIMEPICKER7,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,61,169,43,15
+    CONTROL         "",IDC_DATETIMEPICKER8,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,107,170,43,15
+    CONTROL         "",IDC_DATETIMEPICKER34,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,61,192,43,15
+    CONTROL         "",IDC_DATETIMEPICKER35,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,107,193,43,15
+    LISTBOX         IDC_LIST1,161,7,135,209,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PROPPAGE_CUSERGROUP DIALOGEX 0, 0, 312, 279
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "usergroup&sharesprom"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    LTEXT           "Group_id",IDC_STATIC,21,21,33,8
+    LTEXT           "Group_type",IDC_STATIC,21,45,41,8
+    LTEXT           "validdate",IDC_STATIC,21,69,37,8
+    LTEXT           "expiredate",IDC_STATIC,21,93,41,8
+    LTEXT           "service_id",IDC_STATIC,21,131,41,8
+    LTEXT           "share_sprom_id",IDC_STATIC,21,155,63,8
+    LTEXT           "so_id",IDC_STATIC,21,227,63,8
+    LISTBOX         IDC_LIST1,203,9,92,97,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST2,203,121,92,109,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,79,19,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,79,43,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,79,129,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,79,153,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,79,67,53,15
+    CONTROL         "",IDC_DATETIMEPICKER2,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,135,67,48,15
+    CONTROL         "",IDC_DATETIMEPICKER4,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,79,91,53,15
+    CONTROL         "",IDC_DATETIMEPICKER29,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,135,91,48,15
+    LTEXT           "validdate",IDC_STATIC,21,179,37,8
+    LTEXT           "expiredate",IDC_STATIC,21,203,41,8
+    CONTROL         "",IDC_DATETIMEPICKER30,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,79,177,53,15
+    CONTROL         "",IDC_DATETIMEPICKER36,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,135,177,48,15
+    CONTROL         "",IDC_DATETIMEPICKER37,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,79,201,53,15
+    CONTROL         "",IDC_DATETIMEPICKER38,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,135,201,48,15
+    PUSHBUTTON      "add>>",IDC_BUTTON3,146,145,50,14
+    PUSHBUTTON      "add>>",IDC_BUTTON4,152,28,50,14
+    EDITTEXT        IDC_EDIT7,79,224,53,14,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE_RELAANDCELL DIALOGEX 0, 0, 308, 275
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "relation&cellinfo&spromparam"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    LTEXT           "relationnumber",IDC_STATIC,23,14,57,8
+    LTEXT           "so_id",IDC_STATIC,23,30,21,8
+    LTEXT           "validdate",IDC_STATIC,23,46,37,8
+    LTEXT           "expiredate",IDC_STATIC,23,62,41,8
+    LTEXT           "cell_code",IDC_STATIC,22,93,37,8
+    LTEXT           "so_id",IDC_STATIC,22,109,21,8
+    LTEXT           "validdate",IDC_STATIC,22,125,37,8
+    LTEXT           "expiredate",IDC_STATIC,22,141,41,8
+    LTEXT           "key_id",IDC_STATIC,21,191,25,8
+    LTEXT           "userparam",IDC_STATIC,21,207,37,8
+    LTEXT           "validdate",IDC_STATIC,21,223,37,8
+    LTEXT           "expiredate",IDC_STATIC,21,239,41,8
+    EDITTEXT        IDC_EDIT1,87,28,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,87,12,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,87,107,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,87,91,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,87,205,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,87,189,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,87,44,51,15
+    CONTROL         "",IDC_DATETIMEPICKER2,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,141,44,51,15
+    CONTROL         "",IDC_DATETIMEPICKER3,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,87,60,51,15
+    CONTROL         "",IDC_DATETIMEPICKER4,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,141,60,51,15
+    CONTROL         "",IDC_DATETIMEPICKER29,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,87,123,51,15
+    CONTROL         "",IDC_DATETIMEPICKER30,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,141,123,51,15
+    CONTROL         "",IDC_DATETIMEPICKER38,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,87,139,51,15
+    CONTROL         "",IDC_DATETIMEPICKER39,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,141,139,51,15
+    CONTROL         "",IDC_DATETIMEPICKER5,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,87,221,51,15
+    CONTROL         "",IDC_DATETIMEPICKER6,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,141,221,51,15
+    CONTROL         "",IDC_DATETIMEPICKER7,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,87,237,51,15
+    CONTROL         "",IDC_DATETIMEPICKER8,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,141,237,51,15
+    PUSHBUTTON      "add>>",IDC_BUTTON3,142,103,50,14
+    LTEXT           "so_id",IDC_STATIC,22,174,21,8
+    EDITTEXT        IDC_EDIT9,87,173,40,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST1,213,0,83,79,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST2,213,179,83,82,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST3,213,88,83,82,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "add>>",IDC_BUTTON5,141,27,50,14
+END
+
+IDD_INPUTEDIT DIALOGEX 0, 0, 613, 316
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "输入话单编辑"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,251,297,50,14
+    PUSHBUTTON      "取消",IDCANCEL,498,297,50,14
+    CONTROL         "Custom1",IDC_GRIDCTRL,"MFCGridCtrl",WS_TABSTOP,7,164,581,131
+    CONTROL         "",IDC_RICHEDIT22,"RichEdit20W",WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP | 0xc4,10,3,579,149
+END
+
+IDC_COMPAREDATA DIALOGEX 0, 0, 666, 338
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,199,317,50,14
+    PUSHBUTTON      "取消",IDCANCEL,609,317,50,14
+    CONTROL         " ",IDC_COMPAREGRID,"MFCGridCtrl",WS_TABSTOP,7,87,652,219
+    CONTROL         "",IDC_RICHEDIT21,"RichEdit20W",WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP | 0x84,7,7,652,74
+END
+
+IDD_EXECSHELL_DIALOG DIALOGEX 0, 0, 435, 239
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,330,225,50,14
+    PUSHBUTTON      "取消",IDCANCEL,385,225,50,14
+    CONTROL         "执行命令",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,15,50,10
+    CONTROL         "设为默认",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,133,35,50,10
+    COMBOBOX        IDC_COMBO1,71,34,48,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,15,34,48,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_RICHEDIT21,"RichEdit20W",WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP | 0x84,13,58,386,158
+END
+
+IDD_ContentDlg1 DIALOGEX 0, 0, 489, 267
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "案例名称",IDC_STATIC,28,14,35,8
+    LTEXT           "测试目的",IDC_STATIC,32,39,35,8
+    LTEXT           "预置条件",IDC_STATIC,33,65,35,8
+    LTEXT           "预期结果",IDC_STATIC,34,84,35,8
+    LTEXT           "最后修改者",IDC_STATIC,35,109,44,8
+    LTEXT           "所属业务",IDC_STATIC,36,130,35,8
+    LTEXT           "所属模块",IDC_STATIC,34,154,35,8
+    EDITTEXT        IDC_EDIT1,84,14,246,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,83,36,246,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,85,61,242,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,83,83,245,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,85,106,244,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,85,128,242,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,86,151,241,14,ES_AUTOHSCROLL
+END
+
+IDD_ContentDlg2 DIALOGEX 0, 0, 515, 272
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,199,251,50,14
+    PUSHBUTTON      "取消",IDCANCEL,458,251,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "MFCApplication1"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "MFCApplication1.exe"
+            VALUE "LegalCopyright", "TODO:  (C) <公司名>。  保留所有权利。"
+            VALUE "OriginalFilename", "MFCApplication1.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 81
+    END
+
+    IDD_CCTRLVIEW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 69
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 321
+    END
+
+    IDD_CONTENTVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 472
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 299
+    END
+
+    IDD_PROPPAGE_CUSERINFO, DIALOG
+    BEGIN
+        RIGHTMARGIN, 328
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_PROPPAGE_CUSERSPROM, DIALOG
+    BEGIN
+        RIGHTMARGIN, 307
+        BOTTOMMARGIN, 228
+    END
+
+    IDD_PROPPAGE_CUSERGROUP, DIALOG
+    BEGIN
+        VERTGUIDE, 271
+    END
+
+    IDD_PROPPAGE_RELAANDCELL, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 245
+        HORZGUIDE, 178
+        HORZGUIDE, 223
+        HORZGUIDE, 232
+    END
+
+    IDD_INPUTEDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 606
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 309
+    END
+
+    IDC_COMPAREDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 659
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 331
+    END
+
+    IDD_EXECSHELL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 428
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_ContentDlg1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 482
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 260
+    END
+
+    IDD_ContentDlg2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 508
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 265
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_CCTRLVIEW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_CONTENTVIEW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_PROPPAGE_CUSERINFO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_PROPPAGE_CUSERSPROM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_PROPPAGE_CUSERGROUP AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_PROPPAGE_RELAANDCELL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_INPUTEDIT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDC_COMPAREDATA AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_EXECSHELL_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ContentDlg1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ContentDlg2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。  请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "MFCApplication1"
+    IDR_MFCApplication1TYPE "\nMFCApplication1\nMFCApplication1\n\n\nMFCApplication1.Document\nMFCApplication1.Document"
+    ID_WINDOW_MANAGER       "窗口(&W)..."
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "MFCApplication1"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "创建新文档\n新建"
+    ID_FILE_OPEN            "打开现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+    ID_FILE_PAGE_SETUP      "更改打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "更改打印机选项和打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_DIRECT    "使用当前选项打印活动文档\n快速打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权信息\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "为活动文档打开另一个窗口\n新建窗口"
+    ID_WINDOW_ARRANGE       "在窗口底部排列图标\n排列图标"
+    ID_WINDOW_CASCADE       "以重叠方式排列窗口\n层叠窗口"
+    ID_WINDOW_TILE_HORZ     "以不重叠的平铺方式排列窗口\n平铺窗口"
+    ID_WINDOW_TILE_VERT     "以不重叠的平铺方式排列窗口\n平铺窗口"
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除所选内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制所选内容，将其放入剪贴板\n复制"
+    ID_EDIT_CUT             "剪切所选内容，将其放入剪贴板\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "重做上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "将窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到上一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+    AFX_IDS_MDICHILD        "激活此窗口"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预览"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "窗格 1"
+    IDS_STATUS_PANE2        "窗格 2"
+    IDS_TOOLBAR_STANDARD    "标准"
+    IDS_TOOLBAR_CUSTOMIZE   "自定义..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FILE_VIEW           "文件视图"
+    IDS_CLASS_VIEW          "类视图"
+    IDS_OUTPUT_WND          "输出"
+    IDS_PROPERTIES_WND      "属性"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EXPLORER            "资源管理器"
+    IDS_EDIT_MENU           "编辑"
+    IDS_CASE_VIEW           "case视图"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BUILD_TAB           "生成"
+    IDS_DEBUG_TAB           "调试"
+    IDS_FIND_TAB            "查找"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\MFCApplication1.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#include "l.CHS\afxprint.rc"    // 打印/打印预览资源
+#if !defined(_AFXDLL)
+#include "l.CHS\afxribbon.rc"        // MFC 功能区和控制条资源
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

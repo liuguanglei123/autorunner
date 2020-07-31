@@ -1,37 +1,36 @@
-Autorunner项目简述                                                          
+Autorunner项目简述   
+
 #项目起源
+
 	在亚信工作的两年时间里，公司一直没有实现很好的自动化测试，手工回归工作量非常巨大，因为业务的特殊性，没有一款现成的工具可以直接使用，因此产生了设计一款自动化测试工具的想法，因为在华为外包方工作过一段时间，对华为自研的TMSS工具有一定使用经验，便尝试根据印象中的TMSS样式及功能进行开发。采用的框架是windows下的MFC，开发语言是C++。
 	一款自动化测试工具功能，应当包含案例的查看，管理，执行，结果比对等。由于时间原因，最终工具实现度只有五分之一，也并不具有可用性，已经完成的部分包括工具整体框架设计实现、部分数据库交互（测试案例的层级管理和bsxdrdefine表的配置读取）、案例结构管理、xml解析、部分日志显示、案例存取等基本功能。
+	
 ##基本页面
+
 	工具界面分为四个区域，对应四个不同的MFC view可视化类
+	
 
 ![1.png](https://github.com/liuguanglei123/httprunnerforjava_public/blob/master/src/test/showphoto/1.png)
 
 
-最左侧（图1.2）为案例列表区，
-对应caseview类，内部包含tree
-组件，用来展示和编辑测试用例的
-目录层级。利用MFC自带的Popup
-右键菜单，可以针对case或者目
-录进行不同操作。所有的目录和case
-结构都保存在数据库表catalogtree
-和casetree中。
+最左侧（图1.2）为案例列表区，对应caseview类，内部包含tree组件，用来展示和编辑测试用例的目录层级。利用MFC自带的Popup右键菜单，可以针对case或者目录进行不同操作。所有的目录和case结构都保存在数据库表catalogtree和casetree中。
+
 ![2.png](https://github.com/liuguanglei123/httprunnerforjava_public/blob/master/src/test/showphoto/2.png)
 
 
+中间部分为单个案例内容编辑展示区域，主要由两个view类组成，左侧为ctrlview（组件视图），右侧为contentview（实际内容视图）
 
-中间部分为单个案例内容编辑展
-示区域，主要由两个view类组成，左
-侧为ctrlview（组件视图），右侧为contentview（实际内容视图），
 ![3.png](https://github.com/liuguanglei123/httprunnerforjava_public/blob/master/src/test/showphoto/3.png)
 
 
 contentview中又单独分为两个dialog（两个对话框类对象），用来存放案例的文字描述和具体的操作步骤按钮（图1.3.1和图1.3.2）
+
 ![4.png](https://github.com/liuguanglei123/httprunnerforjava_public/blob/master/src/test/showphoto/4.png)
 
 
 
 contentview中双击左侧的组件视图中的某个按钮，可以将该步骤添加到右侧内容中。图中，左侧的“清理环境/预置资料/输入话单编辑/执行命令/文件比对/数据比对”为代码中定义好的各个步骤，双击后可以将该操作添加到右侧案例中，比如图中，就已经添加好预置数据，编辑输入内容，执行命令，比对数据四个步骤。
+
 ![5.png](https://github.com/liuguanglei123/httprunnerforjava_public/blob/master/src/test/showphoto/5.png)
 
 
